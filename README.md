@@ -34,6 +34,8 @@ python path/to/example.py
 - Data Types
 - Identifiers
 - Control Statements
+- Match case
+- String Functions
 
 ### Best Practices
 - Testing strategies
