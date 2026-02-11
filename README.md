@@ -36,6 +36,10 @@ python path/to/example.py
 - Control Statements
 - Match case
 - String Functions
+- Dictionary
+- Set
+- Tuples
+- Functions
 
 ### Best Practices
 - Testing strategies
