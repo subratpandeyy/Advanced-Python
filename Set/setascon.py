@@ -1,0 +1,13 @@
+s = set((10, 20, 20, 30,"hi",False))
+print(s)
+print(type(s))
+t = tuple([1, 2, 3])
+print(t)
+print(type(t))
+l = list((1, 2, 3))
+print(l)
+print(type(l))
+d = dict(name="sagar", age=20, city="gunupur")
+print(d)
+print(type(d))
+
