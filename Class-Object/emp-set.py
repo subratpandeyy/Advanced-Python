@@ -16,5 +16,5 @@ class Manager(Employee):
 
 E = Manager("Subrat", "CSE", 1000)
 
-E.set_sal(3000)
+E.update_sal(3000)
 E.get_sal()
