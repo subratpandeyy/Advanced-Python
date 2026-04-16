@@ -26,12 +26,6 @@ radio_var = tk.StringVar(value="None")
 tk.Radiobutton(root, text="Option 1", variable=radio_var, value="Option 1").pack()
 tk.Radiobutton(root, text="Option 2", variable=radio_var, value="Option 2").pack()
 
-options = ["Python", "Java", "C++"]
-selected_option = tk.StringVar(value=options[0])
-
-dropdown = tk.OptionMenu(root, selected_option, *options)
-dropdown.pack(pady=5)
-
 listbox = tk.Listbox(root)
 for item in ["Apple", "Banana", "Cherry"]:
     listbox.insert(tk.END, item)
@@ -39,12 +33,6 @@ listbox.pack(pady=5)
 
 text = tk.Text(root, height=5, width=40)
 text.pack(pady=5)
-
-frame = tk.Frame(root, bd=2, relief="sunken")
-frame.pack(pady=10)
-
-tk.Label(frame, text="Inside Frame").pack()
-tk.Button(frame, text="Click Me").pack()
 
 tk.Button(root, text="Exit", command=root.quit).pack(pady=20)
 
